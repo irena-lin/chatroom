@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "lib": ["es6", "es2015", "esnext.asynciterable"],
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "target": "es2017",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src", "bin/**/*.ts", "index.ts", "test"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}
